@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(3, 3, 111, 0.722);
+    background-image: url(https://velez.com.ar/img/galerias/2019/full/07-24_camisetas_15.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 100px 59px auto 152px;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+ul {
+
+    color: white;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+li {
+    color: white;
+    font-size: x-large;
+    list-style: none;
+}
+
+.contacto-form {
+    color: white;
+    text-align: center;
+
+}
+
+.contenedor-video {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+#div {
+
+    color: white;
+}
+
+footer {
+
+    color: white;
+    font-style: italic;
+    font-size: larger;
+    text-align: center;
+}
+
+.img {
+    width: 100%;
+    height: 300px;
+    font-size: xx-large;
+}
+
+#menu {
+    background-position: center;
+}
+
+#inicio {
+    background-position: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.foto-principal {
+    width: 100%;
+}
+
+.productos-div {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 300%;
+    font-family: 'Roboto', sans-serif;
+    color: darkgray;
+}
+
+.titulos {
+    color: white;
+}
+
+.footer-fotos {
+    color: rgb(255, 253, 253);
+    text-align: center;
+}
+
+/*estilos grid*/
+
+.grid {
+    display: grid;
+    grid-template-columns: 30% auto 30%;
+    grid-template-rows: 30% 400px 400px 20vh;
+    justify-content: center;
+}
+
+
+.fotos {
+    height: 250px;
+    background-color: rgba(0, 0, 255, 0.973);
+    margin: 5px;
+
+}
+
+.fotito {
+    width: 100%;
+    height: 100%;
+
+}
+
+@media (max-width:750px) {
+    body {
+        grid-template-rows: 100px auto 152px;
+        height: 100vh;
+    }
+iframe{
+
+    width: 100%;
+    height: auto;
+
+}
+    .grid {
+        grid-template-columns: 50% 50%;
+
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    nav {
+        display: none;
+    }
+
+}
+
+@media (max-width:400px) {
+    .grid {
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+    }
+
+}
+
+.grid-videos {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+}
+
+#grid-videos {
+    display: grid;
+    grid-template-areas: none;
+}
+
+.border {
+    border: solid 1px rgb(0, 0, 0)
+}
