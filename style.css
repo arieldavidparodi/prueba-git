@@ -191,8 +191,8 @@ iframe{
 }
 .texto-animado {
     animation-name: texto ;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
 
 }
 @keyframes texto{
