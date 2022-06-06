@@ -12,35 +12,56 @@
 
 <body>
 <header>
-    <h1>Club Atletico Velez Sarsfield</h1>
+    <h1 class="titulo">Club Atletico Velez Sarsfield</h1>
 </header>
-   
-    
     <nav>
       <div>
             <ul>
-
                 <li id="inicio"><a href="./videos.html">videos</a></li>
                 <li><a href="./fotos.html">fotos</a></li>
                 <li><a href="./contacto.html">contacto</a></li>
                 <li><a href="./tienda.html">tienda</a></li>
-
-            </ul>
+             </ul>
         </div>
     </nav>
 
-    <div class="contenedor-video"> <a href="youtube.com"><iframe width="727" height="409" src="https://www.youtube.com/embed/P863af9WaLI"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe></a></div>
-            
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./fotos-index/957190015_Patronato-vs-Velez-Sarsfield-en-vivo.thumb.jpg.b0655686c555f4dd0efcd870300551cc.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./fotos-index/estadiov.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./fotos-index/tribuna.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+               
     <footer>
-        <h3>Velez Sarsfield</h3>
-        <p>telefono de contacto 0800-444-5656</p>
-        <p>Av. Juan B.Justo y Alvarez Jonte</p>
-    </footer>
+     <h3>Velez Sarsfield</h3>   
+     <p>telefono de contacto 0800-444-5656</p>
+     <p>Av. Juan B.Justo y Alvarez Jonte</p>
+     </footer>
+            
+   
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
