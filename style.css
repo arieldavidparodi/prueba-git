@@ -19,15 +19,14 @@ body {
     display: grid;
     grid-template-rows: 100px 59px auto auto 152px;
 }
+
 .titulo {
     color: white;
     font-size: 60px;
     text-align: center;
-
 }
 
 ul {
-
     color: white;
     display: flex;
     justify-content: space-around;
@@ -39,14 +38,13 @@ li {
     list-style: none;
 }
 li :hover {
-    color:blue;
+    color:blue!important;
 }
 
 .contacto-form {
     color: white;
     text-align: center
 }
-
 
 .contenedor-video {
     width: 100%;
@@ -56,12 +54,10 @@ li :hover {
 }
 
 #div {
-
     color: white;
 }
 
 footer {
-
     color: white;
     font-style: italic;
     font-size: larger;
@@ -83,15 +79,15 @@ footer {
 }
 
 a {
-    color: white;
-    text-decoration: none;
-
+    color: white!important;
+    text-decoration: none!important;
 }
 
 .foto-principal {
     width: 100%;
     margin: 5px;
 }
+
 .banner-principal{
     width: 100%;
 }
@@ -113,7 +109,7 @@ a {
     text-align: center;
 }
 
-/*estilos grid*/
+                /*estilos grid*/
 
 .grid {
     display: grid;
@@ -121,19 +117,21 @@ a {
     grid-template-rows: 30% 400px 400px 20vh;
     justify-content: center;
 }
-
-
+.grid-videos{
+    display: grid;
+    grid-template-columns: 35% 35% 35%;
+    grid-template-rows: 30% 400px 400px 20vh;
+}
+             /*final de estilos grid*/
 .fotos {
     height: 250px;
     background-color: rgba(0, 0, 255, 0.973);
     margin: 5px;
-
 }
 
 .fotito {
     width: 100%;
     height: 100%;
-
 }
 
 @media (max-width:750px) {
@@ -141,15 +139,12 @@ a {
         grid-template-rows: 100px auto 152px;
         height: 100vh;
     }
-iframe{
-
+    iframe{
     width: 100%;
     height: auto;
-
-}
+    }
     .grid {
         grid-template-columns: 50% 50%;
-
     }
 
     h1 {
@@ -159,7 +154,6 @@ iframe{
     nav {
         display: none;
     }
-
 }
 
 @media (max-width:400px) {
@@ -167,18 +161,6 @@ iframe{
         grid-template-columns: 100%;
         grid-template-rows: auto;
     }
-
-}
-
-.grid-videos {
-    display: grid;
-    width: 100%;
-    height: 100vh;
-}
-
-#grid-videos {
-    display: grid;
-    grid-template-areas: none;
 }
 
 .border {
@@ -190,23 +172,31 @@ iframe{
     height: 50%;
     transform: scale(1.5 1.5);
 }
+
 .texto-animado {
     animation-name: texto ;
     animation-duration: 2s;
     animation-iteration-count: 2;
-
 }
 @keyframes texto{
     from /*inicio*/{
-
     transform: translateX(1300px);
     }
     to /*final*/{
         transform: translateX(0);
-
     }
+
 }
 /*bootstrap*/
 .form-contact{
     color:white;
+}
+#carouselExampleIndicators{
+    width: 80%;
+    margin: 0 auto;
+}
+.page-item{
+    --bs-pagination-disabled-bg: blue;
+    --bs-pagination-bg: blue;
+
 }
