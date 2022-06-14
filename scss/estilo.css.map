@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "ACEA,AAAA,MAAM,CAAA;EACF,gBAAgB,ECHJ,sBAAsB;EDIlC,KAAK,ECHS,KAAK;CDItB;;AACD,AAEQ,OAFD,CACH,GAAG,CACC,CAAC,CAAA;EACG,KAAK,ECRC,KAAK;CDSd",
+    "sources": [
+        "estilo.scss",
+        "_tienda.scss",
+        "_variables.scss",
+        "_variables.scss"
+    ],
+    "names": [],
+    "file": "estilo.css"
+}

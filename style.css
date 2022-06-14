@@ -162,7 +162,12 @@ a {
         grid-template-rows: auto;
     }
 }
-
+@media (max-width:800px) {
+    .grid {
+        grid-template-columns: 50%;
+        grid-template-rows: auto;
+    }
+}
 .border {
     border: solid 1px rgb(0, 0, 0)
 }

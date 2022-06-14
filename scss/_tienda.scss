@@ -1,0 +1,13 @@
+@import "./variables";
+
+button{
+    background-color: $azul-principal;
+    color:$blanco-principal;
+}
+article{
+    div{
+        p{
+            color:$blanco-principal;
+        }
+    }
+}
