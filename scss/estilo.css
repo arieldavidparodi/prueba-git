@@ -1,9 +1,46 @@
-button {
+button, .page-item {
   background-color: rgba(0, 0, 255, 0.861);
   color: white;
 }
 
 article div p {
   color: white;
+}
+
+footer {
+  color: white;
+  font-style: italic;
+  font-size: larger;
+  text-align: center;
+}
+
+.page-item {
+  --bs-pagination-disabled-bg:transparent;
+  --bs-pagination-bg: transparent;
+  --bs-pagination-border-color:transparent;
+}
+
+.active > .page-link {
+  background-color: transparent;
+}
+
+.active > .page-link:hover {
+  z-index: 2;
+  color: var(--bs-pagination-hover-color);
+  background-color: var(--bs-pagination-hover-bg);
+  border-color: var(--bs-pagination-hover-border-color);
+  cursor: pointer;
+}
+
+.faceboook {
+  background-color: #ff6a00 !important;
+}
+
+.instagram {
+  background-color: rgba(0, 0, 255, 0.74);
+}
+
+.twitter {
+  background-color: rgba(0, 0, 255, 0.683);
 }
 /*# sourceMappingURL=estilo.css.map */

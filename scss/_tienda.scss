@@ -1,5 +1,12 @@
 @import "./variables";
 
+@mixin footer {
+    color: white;
+    font-style: italic;
+    font-size: larger;
+    text-align: center;
+}
+
 button{
     background-color: $azul-principal;
     color:$blanco-principal;
@@ -11,3 +18,23 @@ article{
         }
     }
 }
+footer{
+    @include footer;
+}
+.page-item{
+ @extend button;
+    --bs-pagination-disabled-bg:transparent;
+    --bs-pagination-bg: transparent;
+    --bs-pagination-border-color:transparent;
+}
+.active>.page-link{
+    background-color:transparent;
+    &:hover{
+        z-index: 2;
+        color: var(--bs-pagination-hover-color);
+        background-color: var(--bs-pagination-hover-bg);
+        border-color: var(--bs-pagination-hover-border-color);
+        cursor: pointer;
+    }
+    }
+
