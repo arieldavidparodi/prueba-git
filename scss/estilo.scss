@@ -2,22 +2,18 @@
 @import "./variables";
 
 $contactanos:(
-    xl:rgb(255, 106, 0),
-    l:rgba(0, 0, 255, 0.74),
-    m:rgba(0, 0, 255, 0.683),
+    "blue":rgba(0, 0, 255, 0.74),
+    "white":rgb(255, 255, 255),
    
 );
-$xl: map-get($contactanos , xl);
-$l: map-get($contactanos , l);
-$m: map-get($contactanos , m);
 
-
-.faceboook{
-    background-color:$xl!important;
+.facebook{
+    background-color:map-get($contactanos , "blue");
 }
 .instagram{
-    background-color:$l;
+    background-color:map-get($contactanos , "white");
+    color: map-get($contactanos , "blue") ;
 }
 .twitter{
-    background-color:$m;
+    background-color:map-get($contactanos , "blue");
 }

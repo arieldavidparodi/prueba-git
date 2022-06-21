@@ -32,15 +32,16 @@ footer {
   cursor: pointer;
 }
 
-.faceboook {
-  background-color: #ff6a00 !important;
-}
-
-.instagram {
+.facebook {
   background-color: rgba(0, 0, 255, 0.74);
 }
 
+.instagram {
+  background-color: white;
+  color: rgba(0, 0, 255, 0.74);
+}
+
 .twitter {
-  background-color: rgba(0, 0, 255, 0.683);
+  background-color: rgba(0, 0, 255, 0.74);
 }
 /*# sourceMappingURL=estilo.css.map */
