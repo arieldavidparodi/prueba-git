@@ -1,0 +1,76 @@
+@import "./variables";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+     *{
+     font-family: roboto;
+    }
+
+     body {
+    background-color: rgba(3, 3, 111, 0.722);
+    background-image: url(https://velez.com.ar/img/galerias/2019/full/07-24_camisetas_15.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 100px 59px auto 152px;
+    }
+
+    .titulo {
+         color: white;
+         font-size: 60px;
+         text-align: center;
+    }
+
+    .texto-animado {
+        animation-name: texto ;
+        animation-duration: 2s;
+        animation-iteration-count: 2;
+    }
+    
+    @keyframes texto{
+     from /*inicio*/{
+     transform: translateX(1300px);
+     }
+     to /*final*/{
+         transform: translateX(0);
+     }
+    }
+ 
+    #menu {
+    background-position: center;
+    }
+
+     #inicio {
+    background-position: center;
+    }
+
+    a {
+    color: white!important;
+    text-decoration: none!important;
+    }
+
+    ul {
+         color: white;
+         display: flex;
+         justify-content: space-around;
+    }
+
+    li {
+         color: white;
+         font-size: x-large;
+         list-style: none;
+    }
+
+    li :hover {
+         color:blue!important;
+    }
+
+    #carouselExampleIndicators{
+    width: 100%;
+    margin: 0 auto;
+    }
+ 
+@mixin footer {
+    color: white;
+    font-style: italic;
+    font-size: larger;
+    text-align: center;
+    }

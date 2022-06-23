@@ -1,33 +1,90 @@
 @import "./variables";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+     *{
+     font-family: roboto;
+    }
 
-@mixin footer {
-    color: white;
-    font-style: italic;
-    font-size: larger;
-    text-align: center;
-}
+@mixin body-tienda {
+    background-color: rgba(3, 3, 111, 0.722);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 100px 59px auto auto 152px;
+    }
 
-button{
+    .banner-principal{
+        width: 100%;
+    }
+
+    .titulo {
+         color: white;
+         font-size: 60px;
+         text-align: center;
+    }
+
+    .texto-animado {
+        animation-name: texto ;
+        animation-duration: 2s;
+        animation-iteration-count: 2;
+    }
+
+    @keyframes texto{
+        from /*inicio*/{
+        transform: translateX(1300px);
+        }
+        to /*final*/{
+            transform: translateX(0);
+        }
+    }
+    
+    ul {
+         color: white;
+         display: flex;
+         justify-content: space-around;
+    }
+
+    li {
+         color: white;
+         font-size: x-large;
+         list-style: none;
+    }
+    li :hover {
+         color:blue!important;
+    }
+
+    .productos-div {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+        color: darkgray;
+        flex-wrap: wrap;
+    }
+    
+    button{
     background-color: $azul-principal;
     color:$blanco-principal;
-}
-article{
+    }
+
+    article{
     div{
         p{
             color:$blanco-principal;
         }
     }
-}
-footer{
+    }
+    footer{
     @include footer;
-}
-.page-item{
- @extend button;
+    }
+
+    .page-item{
+    @extend button;
     --bs-pagination-disabled-bg:transparent;
     --bs-pagination-bg: transparent;
     --bs-pagination-border-color:transparent;
-}
-.active>.page-link{
+    }
+
+    .active>.page-link{
     background-color:transparent;
     &:hover{
         z-index: 2;
@@ -37,4 +94,19 @@ footer{
         cursor: pointer;
     }
     }
+    .border {
+        border: solid 1px rgb(0, 0, 0)
+    }
+
+    .transicion:hover {
+        transform: scale(1.5);
+    }
+    
+    @mixin footer {
+        color: white;
+        font-style: italic;
+        font-size: larger;
+        text-align: center;
+    }
+    
 
