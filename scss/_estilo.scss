@@ -11,7 +11,7 @@ $contactanos:(
    );
    
     .facebook{
-    background-color:map-get($contactanos , "blue");
+        background-color:map-get($contactanos , "blue");
     }
     .instagram{
     background-color:map-get($contactanos , "white");

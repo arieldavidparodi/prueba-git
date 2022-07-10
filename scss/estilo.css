@@ -1,4 +1,5 @@
-button, .page-item {
+button,
+.page-item {
   background-color: rgba(0, 0, 255, 0.861);
   color: white;
 }
@@ -15,16 +16,16 @@ footer {
 }
 
 .page-item {
-  --bs-pagination-disabled-bg:transparent;
+  --bs-pagination-disabled-bg: transparent;
   --bs-pagination-bg: transparent;
-  --bs-pagination-border-color:transparent;
+  --bs-pagination-border-color: transparent;
 }
 
-.active > .page-link {
+.active>.page-link {
   background-color: transparent;
 }
 
-.active > .page-link:hover {
+.active>.page-link:hover {
   z-index: 2;
   color: var(--bs-pagination-hover-color);
   background-color: var(--bs-pagination-hover-bg);
@@ -42,6 +43,10 @@ footer {
 }
 
 .twitter {
-  background-color: rgba(0, 0, 255, 0.74);
+  background-color:  rgba(0, 0, 255, 0.74);
+}
+.iconos{
+  display:flex;
+  justify-content: center;
 }
 /*# sourceMappingURL=estilo.css.map */
