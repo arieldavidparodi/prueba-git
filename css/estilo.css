@@ -1,6 +1,326 @@
-button {
-  background-color: rgba(233, 233, 244, 0.861);
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+* {
+  font-family: roboto; }
+
+body {
+  background-color: rgba(3, 3, 111, 0.722);
+  background-image: url(https://velez.com.ar/img/galerias/2019/full/07-24_camisetas_15.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-rows: 100px 59px auto 152px; }
+
+.titulo {
+  color: white;
+  font-size: 60px;
+  text-align: center; }
+
+.texto-animado {
+  animation-name: texto;
+  animation-duration: 2s;
+  animation-iteration-count: 2; }
+
+@keyframes texto {
+  from {
+    transform: translateX(1300px); }
+  to {
+    transform: translateX(0); } }
+
+#menu {
+  background-position: center; }
+
+#inicio {
+  background-position: center; }
+
+a {
+  color: white !important;
+  text-decoration: none !important; }
+
+ul {
+  color: white;
+  display: flex;
+  justify-content: space-around; }
+
+li {
+  color: white;
+  font-size: x-large;
+  list-style: none; }
+
+li :hover {
+  color: blue !important; }
+
+#carouselExampleIndicators {
+  width: 100%;
+  margin: 0 auto; }
+
+* {
+  font-family: roboto; }
+
+body {
+  background-color: rgba(3, 3, 111, 0.722);
+  background-image: url(https://velez.com.ar/img/galerias/2019/full/07-24_camisetas_15.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-rows: 100px 59px auto 152px; }
+
+#menu {
+  background-position: center; }
+
+#inicio {
+  background-position: center; }
+
+a {
+  color: white !important;
+  text-decoration: none !important; }
+
+.titulo {
+  color: white;
+  font-size: 60px;
+  text-align: center; }
+
+.texto-animado {
+  animation-name: texto;
+  animation-duration: 2s;
+  animation-iteration-count: 2; }
+
+@keyframes texto {
+  from {
+    transform: translateX(1300px); }
+  to {
+    transform: translateX(0); } }
+
+ul {
+  color: white;
+  display: flex;
+  justify-content: space-around; }
+
+li {
+  color: white;
+  font-size: x-large;
+  list-style: none; }
+
+li :hover {
+  color: blue !important; }
+
+.fotos {
+  height: 250px;
+  background-color: rgba(0, 0, 255, 0.973);
+  margin: 5px; }
+
+.fotito {
+  width: 100%;
+  height: 100%; }
+
+.grid {
+  display: grid;
+  grid-template-columns: 30% auto 30%;
+  grid-template-rows: 30% 400px 400px 20vh;
+  justify-content: center; }
+
+* {
+  font-family: roboto; }
+
+body {
+  background-color: rgba(3, 3, 111, 0.722);
+  background-image: url(https://velez.com.ar/img/galerias/2019/full/07-24_camisetas_15.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-rows: 100px 59px auto 152px; }
+
+.titulo {
+  color: white;
+  font-size: 60px;
+  text-align: center; }
+
+.texto-animado {
+  animation-name: texto;
+  animation-duration: 2s;
+  animation-iteration-count: 2; }
+
+@keyframes texto {
+  from {
+    transform: translateX(1300px); }
+  to {
+    transform: translateX(0); } }
+
+ul {
+  color: white;
+  display: flex;
+  justify-content: space-around; }
+
+li {
+  color: white;
+  font-size: x-large;
+  list-style: none; }
+
+li :hover {
+  color: blue !important; }
+
+/*bootstrap*/
+.form-contact {
+  color: white; }
+
+.iconos {
+  display: flex;
+  justify-content: center; }
+
+* {
+  font-family: roboto; }
+
+body {
+  background-color: rgba(3, 3, 111, 0.722);
+  background-image: url(https://velez.com.ar/img/galerias/2019/full/07-24_camisetas_15.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-rows: 100px 59px auto 152px; }
+
+.texto-animado {
+  animation-name: texto;
+  animation-duration: 2s;
+  animation-iteration-count: 2; }
+
+@keyframes texto {
+  from {
+    transform: translateX(1300px); }
+  to {
+    transform: translateX(0); } }
+
+#menu {
+  background-position: center; }
+
+#inicio {
+  background-position: center; }
+
+a {
+  color: white !important;
+  text-decoration: none !important; }
+
+.titulo {
+  color: white;
+  font-size: 59px;
+  text-align: center; }
+
+ul {
+  color: white;
+  display: flex;
+  justify-content: space-around; }
+
+li {
+  color: white;
+  font-size: x-large;
+  list-style: none; }
+
+li :hover {
+  color: blue !important; }
+
+.grid-videos {
+  display: grid;
+  grid-template-columns: 35% 35% 35%;
+  grid-template-rows: 30% 400px 400px 20vh; }
+
+* {
+  font-family: roboto; }
+
+.banner-principal {
+  width: 100%; }
+
+.titulo {
+  color: white;
+  font-size: 60px;
+  text-align: center; }
+
+.texto-animado {
+  animation-name: texto;
+  animation-duration: 2s;
+  animation-iteration-count: 2; }
+
+@keyframes texto {
+  from {
+    transform: translateX(1300px); }
+  to {
+    transform: translateX(0); } }
+
+ul {
+  color: white;
+  display: flex;
+  justify-content: space-around; }
+
+li {
+  color: white;
+  font-size: x-large;
+  list-style: none; }
+
+li :hover {
+  color: blue !important; }
+
+.productos-div {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  color: darkgray;
+  flex-wrap: wrap; }
+
+button, .page-item {
+  background-color: rgba(0, 0, 255, 0.861);
   color: white; }
 
 article div p {
   color: white; }
+
+footer {
+  color: white;
+  font-style: italic;
+  font-size: larger;
+  text-align: center; }
+
+.page-item {
+  --bs-pagination-disabled-bg:transparent;
+  --bs-pagination-bg: transparent;
+  --bs-pagination-border-color:transparent; }
+
+.active > .page-link {
+  background-color: transparent; }
+  .active > .page-link:hover {
+    z-index: 2;
+    color: var(--bs-pagination-hover-color);
+    background-color: var(--bs-pagination-hover-bg);
+    border-color: var(--bs-pagination-hover-border-color);
+    cursor: pointer; }
+
+.border {
+  border: solid 1px black; }
+
+.transicion:hover {
+  transform: scale(1.5); }
+
+* {
+  font-family: roboto; }
+
+.facebook {
+  background-color: rgba(0, 0, 255, 0.74); }
+
+.instagram {
+  background-color: transparent;
+  color: rgba(0, 0, 255, 0.74); }
+
+.twitter {
+  background-color: rgba(0, 0, 255, 0.74); }
+
+header {
+  width: 100%;
+  overflow: hidden; }
+
+.iconos {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px; }

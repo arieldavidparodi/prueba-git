@@ -216,5 +216,10 @@ a {
     width: 100%;
     margin: 0 auto;
 }
-
+.iconos{
+display: flex;
+gap: 10px;
+justify-content: center;
+margin-top: 20px;
+}
 /*final de bootstrap*/

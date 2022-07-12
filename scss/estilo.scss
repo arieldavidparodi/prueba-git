@@ -1,3 +1,7 @@
+@import "./index";
+@import "./fotos";
+@import "./contacto";
+@import "./videos";
 @import "./tienda";
 @import "./variables";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
@@ -7,7 +11,7 @@
 
 $contactanos:(
     "blue":rgba(0, 0, 255, 0.74),
-    "white":rgb(255, 255, 255),
+    "white":transparent,
    );
    
     .facebook{
@@ -19,4 +23,14 @@ $contactanos:(
     }
     .twitter{
     background-color:map-get($contactanos , "blue");
+    }
+header{
+    width: 100%;
+    overflow: hidden;
+}
+.iconos{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
     }
