@@ -4,7 +4,7 @@
      font-family: roboto;
     }
 
-@mixin body-tienda {
+.body-tienda {
     background-color: rgba(3, 3, 111, 0.722);
     background-repeat: no-repeat;
     background-size: cover;
@@ -56,11 +56,11 @@
         display: flex;
         justify-content: space-around;
         width: 100%;
+        color: white;
         font-family: 'Roboto', sans-serif;
-        color: darkgray;
         flex-wrap: wrap;
     }
-    
+
     button{
     background-color: $azul-principal;
     color:$blanco-principal;
@@ -110,3 +110,6 @@
     }
     
 
+    .titulos {
+        color: white!important;
+    }
